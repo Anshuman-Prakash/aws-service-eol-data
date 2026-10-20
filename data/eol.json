@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-13",
+  "lastUpdated": "2026-10-20",
   "_disclaimer": "This is community-maintained data, NOT an official AWS API. Verify dates against sourceUrl before making business decisions. For production use, pin to a tagged release rather than tracking main branch.",
   "services": [
     {
@@ -122,6 +122,16 @@
       "versionType": "runtime",
       "versions": [
         {
+          "version": "python3.15",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "TENTATIVE",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
           "version": "python3.14",
           "status": "STANDARD_SUPPORT",
           "standardSupportEnd": "2029-06-30",
@@ -188,6 +198,16 @@
           "extendedSupport": null,
           "postDeprecationBehavior": "CREATE_BLOCKED",
           "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "nodejs26.x",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": null,
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "TENTATIVE",
           "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
           "postExtendedSupportBehavior": null
         },
@@ -262,6 +282,36 @@
           "postExtendedSupportBehavior": null
         },
         {
+          "version": "java17.al2023",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "java11.al2023",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "java8.al2023",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
           "version": "java17",
           "status": "STANDARD_SUPPORT",
           "standardSupportEnd": "2027-06-30",
@@ -322,6 +372,16 @@
           "postExtendedSupportBehavior": null
         },
         {
+          "version": "dotnet6",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2024-12-20",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
           "version": "ruby4.0",
           "status": "STANDARD_SUPPORT",
           "standardSupportEnd": "2029-03-31",
@@ -355,6 +415,26 @@
           "version": "ruby3.2",
           "status": "DEPRECATED",
           "standardSupportEnd": "2026-03-31",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "provided.al2023",
+          "status": "STANDARD_SUPPORT",
+          "standardSupportEnd": "2029-06-30",
+          "extendedSupport": null,
+          "postDeprecationBehavior": "CREATE_BLOCKED",
+          "dateConfidence": "COMMITTED",
+          "sourceUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+          "postExtendedSupportBehavior": null
+        },
+        {
+          "version": "provided.al2",
+          "status": "DEPRECATED",
+          "standardSupportEnd": "2026-07-31",
           "extendedSupport": null,
           "postDeprecationBehavior": "CREATE_BLOCKED",
           "dateConfidence": "COMMITTED",
